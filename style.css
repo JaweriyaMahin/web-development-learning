@@ -1,0 +1,43 @@
+body{
+font-family: Arial;
+background: linear-gradient(120deg,#2980b9,#6dd5fa);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.game-container{
+background:white;
+padding:30px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+input{
+padding:10px;
+font-size:16px;
+width:150px;
+margin-top:10px;
+}
+
+button{
+padding:10px 20px;
+margin:10px;
+background:#2980b9;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1c5980;
+}
+
+#message{
+font-size:18px;
+margin-top:10px;
+}
