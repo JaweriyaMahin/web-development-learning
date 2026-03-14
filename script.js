@@ -14,4 +14,4 @@ document.getElementById("cityName").innerText = data.name;
 document.getElementById("temperature").innerText = "Temperature: " + data.main.temp + "°C";
 document.getElementById("description").innerText = "Weather: " + data.weather[0].description;
 
-}
+
